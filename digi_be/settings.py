@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-)qu7x4h+smy8n5zr*hqt#=cm4!(0t*x+u8p86raj%q@x$)_-78
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://localhost', '.herokuapp.com']
+ALLOWED_HOSTS = ['http://localhost', '.github.com']
 
 cloudinary.config( 
   cloud_name = "digi-be", 

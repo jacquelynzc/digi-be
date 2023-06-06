@@ -2,13 +2,17 @@
   "name": "digi-be",
   "version": "0.1.0",
   "homepage": "https://jacquelynzc.github.io/digi-be",
-  "private": true,
   "dependencies": {
-    "django": "^1.0.0"
+    "django": "^1.0.0",
+    "postgresql": "^0.0.1",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build"
+    "deploy": "gh-pages -b main -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
   },
   "browserslist": {
     "production": [
