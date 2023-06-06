@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-)qu7x4h+smy8n5zr*hqt#=cm4!(0t*x+u8p86raj%q@x$)_-78'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['http://localhost', '.github.com']
+ALLOWED_HOSTS = ['http://localhost', '0.0.0.0', '.github.com']
 
 cloudinary.config( 
   cloud_name = "digi-be", 
