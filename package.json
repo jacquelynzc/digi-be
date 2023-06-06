@@ -1,5 +1,25 @@
 {
+  "name": "digi-be",
+  "version": "0.1.0",
+  "homepage": "https://jacquelynzc.github.io/digi-be",
+  "private": true,
   "dependencies": {
     "django": "^1.0.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
